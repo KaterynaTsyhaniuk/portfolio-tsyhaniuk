@@ -1,0 +1,107 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(191, 123, 209, 0.542);
+  background-image: url('../img/1216_60.png');
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 20px 80px;
+}
+
+.title-first,
+.title-second,
+.title-third {
+  font-size: 64px;
+  color: #5d1478;
+}
+
+.title-third {
+  font-family: 'Italianno', cursive;
+  letter-spacing: 4px;
+  font-size: 72px;
+  padding-bottom: 100px;
+}
+
+.white-leter {
+  color: rgb(250, 246, 252);
+}
+
+/* Aнімація*/
+.title-first {
+  position: relative;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+.title-second {
+  position: relative;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  transition-delay: 1000ms;
+}
+.title-third {
+  position: relative;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  transition-delay: 1500ms;
+}
+
+.social-list {
+  position: relative;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  transition-delay: 2000ms;
+}
+
+.title-first.hero-title-visible,
+.title-second.hero-title-visible,
+.title-third.hero-title-visible,
+.social-list.hero-title-visible {
+  opacity: 1;
+}
+
+.social-list {
+  display: flex;
+  margin-left: 250px;
+  gap: 20px;
+}
+
+a svg {
+  fill: #5d1478;
+  /* fill: rgb(250, 246, 252); */
+}
+
+a svg:hover,
+a svg:focus {
+  fill: rgb(250, 246, 252);
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gmail-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.gmail-item p {
+  opacity: 0;
+  transform: translateX(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: relative;
+  left: 10px; /* трохи правіше від іконки */
+  top: 15%;
+  transform: translateY(-50%) translateX(10px);
+  white-space: nowrap;
+  color: #4b0082; /* #4b0082 або інший колір rgb(250, 246, 252) */
+  font-size: 16px;
+  pointer-events: none; /* щоб не заважав фокусуванню */
+}
+
+.gmail-link:focus + p,
+.gmail-link:hover + p {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
