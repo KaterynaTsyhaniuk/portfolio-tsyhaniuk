@@ -17,9 +17,10 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 100%;
+  padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -50,4 +51,24 @@ main:has(.back-link) {
   src: url('../fonts/Italianno-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  outline: 1px solid red;
+} */
+
+body.scroll-locked {
+  position: fixed;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+html {
+  scroll-behavior: smooth;
 }
