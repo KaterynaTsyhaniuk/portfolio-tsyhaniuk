@@ -53,16 +53,7 @@ main:has(.back-link) {
   font-style: normal;
 }
 
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  outline: 1px solid red;
-} */
-
+/*забороняємо поперечний скрол*/
 body.scroll-locked {
   position: fixed;
   width: 100%;
