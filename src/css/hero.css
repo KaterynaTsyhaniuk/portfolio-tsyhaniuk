@@ -8,7 +8,7 @@
   background-size: 600px auto;
   background-repeat: no-repeat;
   background-position: top right;
-  padding: 20px 80px;
+  padding: 40px 20px;
 }
 
 .title-first,
@@ -91,13 +91,13 @@ a svg:focus {
   transform: translateX(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
   position: relative;
-  left: 10px; /* трохи правіше від іконки */
+  left: 10px;
   top: 15%;
   transform: translateY(-50%) translateX(10px);
   white-space: nowrap;
   color: #4b0082; /* #4b0082 або інший колір rgb(250, 246, 252) */
   font-size: 16px;
-  pointer-events: none; /* щоб не заважав фокусуванню */
+  pointer-events: none;
 }
 
 .gmail-link:focus + p,

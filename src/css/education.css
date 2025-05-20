@@ -1,6 +1,6 @@
 .education-container {
   padding: 96px;
-  background-color: rgba(191, 123, 209, 0.542);
+  background-color: rgba(198, 134, 216, 0.542);
   background-image: url('../img/flover-1.avif');
   background-size: 500px auto;
   background-repeat: no-repeat;
@@ -99,17 +99,6 @@
   }
 }
 
-.education-diploma {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* @media only screen and (min-width: 1400px) {
-  .education-accordion-panel {
-    gap: 32px;
-  }
-} */
-
 .item-list-education {
   gap: 10px;
 }
@@ -122,19 +111,11 @@
   letter-spacing: -0.02em;
 }
 
-.ac-panel-item:first-child {
-  padding-top: 8px;
-}
-
 @media only screen and (min-width: 1400px) {
   .ac-panel-item {
     max-width: 612px;
     margin-left: 696px;
-  }
-
-  .education-accordion-panel:last-child {
-    display: flex;
-    flex-wrap: wrap;
+    height: auto;
   }
 }
 .icon-education {
@@ -155,4 +136,22 @@
     width: 18px;
     height: 18px;
   }
+}
+
+.certificates-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 10px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.certificates-list img {
+  display: block;
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
 }
