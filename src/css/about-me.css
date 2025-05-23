@@ -31,7 +31,7 @@
 
 .about-me-img {
   border: 4px solid white;
-  border-radius: 30px 120px 30px 120px;
+  border-radius: 60px;
   overflow-clip-margin: content-box;
   overflow: clip;
 }
