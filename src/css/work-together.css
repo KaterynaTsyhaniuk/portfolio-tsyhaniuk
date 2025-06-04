@@ -1,0 +1,132 @@
+.footer-container {
+  padding: 200px;
+  background-color: rgba(198, 134, 216, 0.542);
+  background-image: url('../img/flower-2.png');
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+}
+
+.footer-title {
+  color: #5d1478;
+  margin-left: 110px;
+  padding: 48px;
+  font-size: 48px;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.footer-form-input-mail,
+.footer-form-input-text {
+  width: 300px;
+  padding: 18px;
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  border-radius: 20px 5px 20px 5px;
+  outline: none;
+  font-size: 18px;
+  color: #5d1478;
+}
+
+.footer-form-input-mail::placeholder,
+.footer-form-input-text::placeholder {
+  font-size: 16px;
+  color: rgba(184, 164, 185, 0.793);
+}
+
+.form-submit-btn {
+  width: 80px;
+  background-color: #5d1478;
+  color: #fafafa;
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  border-radius: 20px 5px 20px 5px;
+  padding: 18px;
+  font-size: 18px;
+}
+
+.form-submit-btn:hover,
+.form-submit-btn:focus {
+  background-color: transparent;
+  border: 2px solid #5d1478;
+}
+
+/* .footer-backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(15, 15, 16, 0.6);
+}
+.footer-modal {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 343px;
+  min-height: 276px;
+  background-color: #1c1d20;
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  border-radius: 20px;
+  padding: 64px 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-modal-close-btn {
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 0;
+  right: 20px;
+  top: 20px;
+}
+.footer-modal-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fafafa;
+  margin-bottom: 16px;
+}
+
+.footer-modal-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(250, 250, 250, 0.6);
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.footer-modal-close-icon {
+  width: 22px;
+  height: 22px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-modal {
+    width: 492px;
+    height: 246px;
+    padding: 64px;
+    top: 50%;
+    left: 50%;
+  }
+
+  .footer-modal-close-icon {
+    width: 24px;
+    height: 24px;
+  }
+} */
