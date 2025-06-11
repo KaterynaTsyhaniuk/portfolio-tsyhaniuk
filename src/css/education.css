@@ -1,10 +1,24 @@
 .education-container {
-  padding: 100px;
+  padding: 40px 20px;
   background-color: rgba(198, 134, 216, 0.542);
   background-image: url('../img/flover-1.avif');
-  background-size: 500px auto;
+  background-size: 300px auto;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: bottom right -75px;
+}
+
+@media only screen and (min-width: 768px) {
+  .education-container {
+    padding: 80px 20px;
+    background-size: 500px auto;
+    background-position: bottom center;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .education-container {
+    padding: 40px 20px;
+  }
 }
 
 .education-accordion-container {
@@ -20,12 +34,6 @@
     gap: 32px;
   }
 }
-
-/* @media only screen and (min-width: 1400px) {
-  .education-accordion-container {
-    margin-bottom: 96px;
-  }
-} */
 
 .education-accordion-item {
   padding-bottom: 20px;
@@ -109,13 +117,30 @@
   font-weight: 500;
   line-height: 150%;
   letter-spacing: -0.02em;
+  padding: 0 10px;
 }
 
 @media only screen and (min-width: 1400px) {
   .ac-panel-item {
     max-width: 612px;
-    margin-left: 696px;
+    margin-left: 725px;
     height: auto;
+  }
+}
+
+.item-education {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .item-education {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .item-education {
+    font-size: 20px;
   }
 }
 .icon-education {

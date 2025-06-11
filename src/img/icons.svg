@@ -34,9 +34,15 @@
     <path d="M26.6667 16H5.33342" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
     <path d="M13.3333 24L5.33325 16L13.3333 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
   </symbol>
+ <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" id="x-close">
+    <path d="M21 7L7 21" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 7L21 21" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="sort">
+    <rect x="0" y="0" width="24" height="24" rx="8" fill="none"></rect>
+      <path fill="none" stroke="currentColor" stroke-linecap="round" d="M5 7h14M5 12h10M5 17h6"></path>
+     </symbol>
 </svg>
-
-
 
 
 
