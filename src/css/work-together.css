@@ -53,10 +53,8 @@
   }
 }
 
-.statr {
+.start {
   color: rgb(250, 246, 252);
-  /* font-family: 'Italianno'; */
-  /* font-size: 92px; */
 }
 
 .footer-form {
@@ -182,8 +180,6 @@
   border: 2px solid #5d1478;
 }
 
-/* Валідація */
-
 .valid-notification-mail,
 .valid-notification-comment {
   display: block;
@@ -193,7 +189,7 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
   color: #3cbc81;
-  min-height: 18px; /* висота під один рядок */
+  min-height: 18px;
 }
 
 .valid-notification-mail.notification-error,
@@ -216,8 +212,6 @@
   flex-direction: column;
   align-items: flex-start;
 }
-
-/* MODAL WINDOW */
 
 .footer-backdrop {
   position: fixed;

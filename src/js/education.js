@@ -7,7 +7,7 @@ document.querySelectorAll('.certificate-item').forEach(img => {
   img.addEventListener('click', () => {
     const src = img.dataset.full;
 
-    console.log(src); //./img/education/goit-1.png
+    console.log(src);
 
     const instance = basicLightbox.create(`
       <img src="${src}" alt="certificate" width="200" height="200" />
@@ -17,7 +17,6 @@ document.querySelectorAll('.certificate-item').forEach(img => {
   });
 });
 
-// import 'accordion-js/dist/accordion.min.css';
 const educationAccordion = new Accordion('.education-accordion-container', {
   duration: 400,
   showMultiple: true,

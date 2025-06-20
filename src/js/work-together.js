@@ -39,7 +39,6 @@ refs.formElem.addEventListener('submit', async event => {
 
   let isValid = true;
 
-  // Перевірка email
   if (emailValue === '' || !refs.inputMailElem.validity.valid) {
     createErrorMailNotification();
     isValid = false;
@@ -47,7 +46,6 @@ refs.formElem.addEventListener('submit', async event => {
     createMailSuccessNotification();
   }
 
-  // Перевірка comments
   if (commentValue === '' || commentValue.length < 10) {
     createErrorCommentNotification();
     isValid = false;
