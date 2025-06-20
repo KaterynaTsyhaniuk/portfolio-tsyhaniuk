@@ -106,20 +106,20 @@
   position: relative;
   opacity: 0;
   transition: opacity 1s ease-out;
-  transition-delay: 500ms;
+  transition-delay: 200ms;
 }
 .title-third {
   position: relative;
   opacity: 0;
   transition: opacity 1s ease-out;
-  transition-delay: 1000ms;
+  transition-delay: 400ms;
 }
 
 .social-list {
   position: relative;
   opacity: 0;
   transition: opacity 1s ease-out;
-  transition-delay: 1500ms;
+  transition-delay: 800ms;
 }
 
 .title-first.hero-title-visible,

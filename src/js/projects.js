@@ -11,14 +11,14 @@ const projectsSwiper = new Swiper('.projects-swiper', {
     onlyInViewport: true,
   },
   breakpoints: {
-    // 320: {
-    //   slidesPerView: 2,
-    //   spaceBetween: 0,
-    // },
-    // 768: {
-    //   slidesPerView: 3,
-    //   spaceBetween: 0,
-    // },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
     1440: {
       slidesPerView: 2,
       spaceBetween: 2,
