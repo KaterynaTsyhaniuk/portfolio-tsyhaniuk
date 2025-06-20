@@ -103,6 +103,20 @@
   overflow: clip;
 }
 
+@media screen and (min-width: 768px) {
+  .about-me-img {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .about-me-img {
+    width: 400px;
+    height: 600px;
+  }
+}
+
 .fade-in-up {
   opacity: 0;
   transform: translateY(20px);

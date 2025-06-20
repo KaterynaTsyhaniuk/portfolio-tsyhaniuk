@@ -1,36 +1,55 @@
 .footer-container {
   position: relative;
-  /* padding: 180px; */
+  padding: 40px 20px;
   background-color: rgba(198, 134, 216, 0.542);
   background-image: url('../img/flower-2.png');
-  background-size: 600px auto;
+  background-size: 400px auto;
   background-repeat: no-repeat;
+  background-position: top 20px right 50px;
+}
+
+@media screen and (min-width: 375px) {
+  .footer-container {
+    background-size: 350px auto;
+    background-position: top 20px right 100px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .footer-container {
-    position: relative;
-    padding: 180px;
-    background-color: rgba(198, 134, 216, 0.542);
-    background-image: url('../img/flower-2.png');
+    background-size: 350px auto;
+    background-position: top 20px right 450px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-container {
+    padding: 120px 30px;
     background-size: 600px auto;
-    background-repeat: no-repeat;
+    background-position: top -20px right 850px;
   }
 }
 
 .footer-title {
   color: #5d1478;
-
-  padding: 48px;
+  padding: 76px 8px 56px 8px;
   font-size: 22px;
+  margin-left: 128px;
 }
 
 @media screen and (min-width: 768px) {
   .footer-title {
-    color: #5d1478;
     margin-left: 160px;
-    padding: 48px;
-    font-size: 48px;
+    padding: 42px;
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-title {
+    margin-left: 320px;
+    padding: 58px;
+    font-size: 52px;
   }
 }
 
@@ -43,44 +62,118 @@
 .footer-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5px;
   font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {
   .footer-form {
+    margin-left: 122px;
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    margin-left: 220px;
     font-size: 18px;
   }
 }
 
 .footer-form-input-mail,
 .footer-form-input-text {
-  max-width: 300px;
-  padding: 18px;
+  max-width: 200px;
+  padding: 10px;
   border: 1px solid rgba(250, 250, 250, 0.5);
   border-radius: 20px 5px 20px 5px;
   outline: none;
-  font-size: 18px;
+  font-size: 14px;
   color: #5d1478;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-form-input-mail,
+  .footer-form-input-text {
+    max-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-form-input-mail,
+  .footer-form-input-text {
+    max-width: 400px;
+    padding: 18px;
+    border: 1px solid rgba(250, 250, 250, 0.5);
+    border-radius: 20px 5px 20px 5px;
+    outline: none;
+    font-size: 18px;
+    color: #5d1478;
+  }
 }
 
 .footer-form-input-mail::placeholder,
 .footer-form-input-text::placeholder {
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(184, 164, 185, 0.793);
 }
 
+@media screen and (min-width: 768px) {
+  .footer-form-input-mail::placeholder,
+  .footer-form-input-text::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-form-input-mail::placeholder,
+  .footer-form-input-text::placeholder {
+    font-size: 18px;
+  }
+}
+
 .form-submit-btn {
-  width: 80px;
+  margin-right: 70px;
+  width: 60px;
   background-color: #5d1478;
   color: #fafafa;
   border: 1px solid rgba(250, 250, 250, 0.5);
   border-radius: 20px 5px 20px 5px;
-  padding: 18px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-submit-btn {
+    margin-right: 0;
+    width: 80px;
+    background-color: #5d1478;
+    color: #fafafa;
+    border: 1px solid rgba(250, 250, 250, 0.5);
+    border-radius: 20px 5px 20px 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .form-submit-btn {
+    padding: 18px;
+    font-size: 18px;
+  }
 }
 
 .form-submit-btn:hover,
@@ -100,6 +193,7 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
   color: #3cbc81;
+  min-height: 18px; /* висота під один рядок */
 }
 
 .valid-notification-mail.notification-error,
@@ -114,6 +208,13 @@
 .footer-form-input-mail.input-error,
 .footer-form-input-text.input-error {
   border: 1px solid #e74a3b;
+}
+
+.input-mail-box,
+.input-comments-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /* MODAL WINDOW */
@@ -187,53 +288,66 @@
     position: fixed;
   }
 }
-/* LOADER */
+
 .loader-box {
-  position: relative;
-  width: 100px;
-  height: 100px;
-}
-.loader-wrap {
-  position: absolute;
-  top: -25px;
-  left: -15px;
-}
-.loader {
-  display: block;
-  position: relative;
-  width: 120px;
-  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #854d85;
 }
 
-.loader:before,
-.loader:after {
-  content: '';
-  border-radius: 50%;
-  position: absolute;
-  inset: 0;
-  box-shadow: 0 0 10px 2px rgba(133, 77, 133, 0.807) inset;
-}
-.loader:after {
-  box-shadow: 0 2px 0 rgba(44, 13, 44, 0.807) inset;
-  animation: rotate 2s linear infinite;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@media only screen and (min-width: 768px) {
-  .loader {
-    width: 110px;
-    height: 110px;
-  }
-
+@media only screen and (min-width: 1400px) {
   .loader-box {
-    width: 100px;
-    height: 100px;
+    font-size: 18px;
+  }
+}
+
+.letter,
+.dot {
+  opacity: 0;
+  animation: appear 1.5s infinite;
+}
+
+.letter:nth-child(1) {
+  animation-delay: 0s;
+}
+.letter:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.letter:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.letter:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.letter:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.letter:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.letter:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.dot:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.dot:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.dot:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes appear {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
 }
