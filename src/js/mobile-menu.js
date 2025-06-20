@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
   function openMenu() {
     mobileMenu.classList.add('menu-open');
     mobileMenu.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
+    document.body.classList.add('menu-open');
   }
 
   function closeMenu() {
     mobileMenu.classList.remove('menu-open');
     mobileMenu.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
+    document.body.classList.remove('menu-open');
   }
 
   menuToggle.addEventListener('click', openMenu);

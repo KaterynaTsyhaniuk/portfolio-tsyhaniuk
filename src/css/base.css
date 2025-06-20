@@ -99,3 +99,11 @@ main:has(.back-link) {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}

@@ -1,8 +1,5 @@
 'use strict';
-
 import axios from 'axios';
-import iziToast from 'izitoast';
-import 'izitoast/dist/css/iziToast.min.css';
 
 const refs = {
   formElem: document.querySelector('.footer-form'),
@@ -76,7 +73,7 @@ refs.formElem.addEventListener('submit', async event => {
     localStorage.removeItem('email');
     localStorage.removeItem('comments');
   } catch (err) {
-    iziToast.error(iziToastErrorObj);
+    console.error(err);
     hideLoader();
   }
 });
@@ -187,19 +184,6 @@ function createMailSuccessNotification() {
   refs.inputMailElem.classList.add('input-success');
   refs.spanValidMailElem.textContent = 'Success!';
 }
-
-const iziToastErrorObj = {
-  title: 'Error',
-  message: `Sorry, something went wrong...`,
-  backgroundColor: 'rgb(224, 55, 63)',
-  titleColor: 'rgb(255, 255, 255)',
-  messageColor: 'rgb(255, 255, 255)',
-  messageSize: '16',
-  iconColor: 'rgb(255, 255, 255)',
-  theme: 'dark',
-  progressBarColor: 'rgb(255, 255, 255)',
-  position: 'bottomCenter',
-};
 
 function showLoader() {
   refs.loaderWrapElem.classList.remove('is-hidden');
