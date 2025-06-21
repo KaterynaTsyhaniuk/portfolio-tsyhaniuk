@@ -1,5 +1,6 @@
 'use strict';
 import axios from 'axios';
+import { saveToLS, loadFromLS } from './storage.js';
 
 const refs = {
   formElem: document.querySelector('.footer-form'),
@@ -126,10 +127,6 @@ function clearNotificationField() {
   refs.spanValidCommentElem.classList.remove('notification-success');
 }
 
-function saveToLS(key, value) {
-  const jsonData = JSON.stringify(value);
-  localStorage.setItem(key, jsonData);
-}
 function checkInputValidity() {
   let isValid = true;
 
@@ -189,9 +186,4 @@ function showLoader() {
 
 function hideLoader() {
   refs.loaderWrapElem.classList.add('is-hidden');
-}
-
-function loadFromLS(key) {
-  const data = localStorage.getItem(key);
-  return data ? JSON.parse(data) : '';
 }
