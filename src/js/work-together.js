@@ -190,3 +190,8 @@ function showLoader() {
 function hideLoader() {
   refs.loaderWrapElem.classList.add('is-hidden');
 }
+
+function loadFromLS(key) {
+  const data = localStorage.getItem(key);
+  return data ? JSON.parse(data) : '';
+}
