@@ -5,6 +5,7 @@ import './js/header';
 import './js/projects';
 import './js/work-together';
 import './js/mobile-menu';
+import './js/locales';
 
 // Array.from(document.querySelectorAll('*')).forEach(el => {
 //   el.style.outline = '1px solid red';

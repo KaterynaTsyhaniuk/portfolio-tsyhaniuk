@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "hello": "Hello.",
+    "role": "I'm <span class='white-later'>Fullstack Developer</span>",
+    "name": "<span class='white-leter'>T</span>syhaniuk <span class='white-leter'>K</span>ateryna.",
+    "title": "Hello.<br/>I'm <span class='white-later'>Fullstack Developer</span><br/><span class='white-leter'>T</span>syhaniuk <span class='white-leter'>K</span>ateryna."
+  },
+
+  "about": {
+    "title": "According to my friends, I am:",
+    "qualities1": "A <span class='span-qualities'>friendly communicator</span> - I easily connect with others and create a positive atmosphere in any team.",
+    "qualities2": "A <span class='span-qualities'>responsible achiever</span> - I always keep my word and follow through on every task I take on.",
+    "qualities3": "<span class='span-qualities'>Hardworking and result-oriented</span> - I'm fully committed to reaching goals and delivering high-quality results."
+  },
+
+  "header": {
+    "about-me": "About me",
+    "education": "Education",
+    "projects": "Projects",
+    "work-together": "Work together"
+  }
+}
