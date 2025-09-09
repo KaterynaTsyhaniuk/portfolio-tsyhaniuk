@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Tsyhaniuk Kateryna">
+  <title>tsyhaniuk</title>
+  <link rel="icon" type="image/svg+xml" href="/portfolio-tsyhaniuk/assets/logo-ts-u2V0-GKV.png" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+
+  <script type="module" crossorigin src="/portfolio-tsyhaniuk/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/portfolio-tsyhaniuk/assets/vendor-D42RuW-E.js">
+  <link rel="stylesheet" crossorigin href="/portfolio-tsyhaniuk/assets/vendor-CbcaEU2F.css">
+  <link rel="stylesheet" crossorigin href="/portfolio-tsyhaniuk/assets/index-CWLKDiDF.css">
+</head>
+
+<body>
+  <script src="https://unpkg.com/i18next@21.6.16/i18next.min.js"></script>
+  <header class="header" id="header">
+  <div class="container header-container">
+
+    <nav class="nav-info">
+
+      <div class="nav-info-box">
+
+        <a class="header-logo-link" href="index.html" aria-label="Website logo">
+          <img class="logo-img" src="data:image/png;base64,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" alt="Tsyhaniuk logo"
+            srcset="data:image/png;base64,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 1x, /portfolio-tsyhaniuk/assets/logo2@2x-BkFBvlgj.png 2x" width="60" height="60">
+        </a>
+        <div class="language-box">
+          <button id="lang-en" class="btn-language">EN</button>
+          <button id="lang-uk" class="btn-language">UA</button>
+        </div>
+        <ul class="header-list">
+          <li class="header-item"><a href="#about-me" data-i18n="header.about-me">About me</a></li>
+          <li class="header-item"><a href="#education" data-i18n="header.education">Education</a></li>
+          <li class="header-item"><a href="#projects" data-i18n="header.projects">Projects</a></li>
+        </ul>
+        <a class="work-together" href="#work-together" data-i18n="header.work-together">Work together</a>
+        <button class="mobile-menu-btn" type="button" aria-label="Open mobile menu button">
+          <svg class="mobile-menu-btn-icon" width="28" height="28">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#sort"></use>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <button type="button" aria-label="Back to top button" class="back-to-top-btn">
+    <svg width="20" height="20">
+      <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#Icon@2x"></use>
+    </svg>
+  </button>
+</header>
+  <main>
+    <section class="hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">
+      <span class="title-first" data-i18n="hero.hello">Hello.</span><br />
+      <span class="title-second" data-i18n="hero.role">I'm <span class="white-later">Fullstack
+          Developer</span></span><br />
+      <span class="title-third" data-i18n="hero.name"><span class="white-later">T</span>syhaniuk<span
+          class="white-later">K</span>ateryna.</span>
+    </h1>
+
+    <ul class="social-list">
+      <li><a href="https://t.me/katerynatsyhaniuk" target="_blank" rel="noopener noreferrer"
+          aria-label="Telegram social link"><svg width="30" height="30">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#telegram"></use>
+          </svg></a></li>
+      <li><a href="https://www.linkedin.com/in/kateryna-tsyhaniuk/" target="_blank" rel="noopener noreferrer"
+          aria-label="Linkedin social link"><svg width="30" height="30">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#icons8-linkedin"></use>
+          </svg></a></li>
+      <li><a href="https://www.instagram.com/hlemba_katya/" target="_blank" rel="noopener noreferrer"
+          aria-label="Instagram social link"><svg width="30" height="30">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#icons8-instagram"></use>
+          </svg></a></li>
+      <li><a href="https://github.com/KaterynaTsyhaniuk" target="_blank" rel="noopener noreferrer"
+          aria-label="GitHub social link"><svg width="30" height="30">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#icons8-github-logo"></use>
+          </svg></a></li>
+      <li class="gmail-item"><a class="gmail-link"
+          href="https://mail.google.com/mail/?view=cm&to=tsyhaniukkateryna@gmail.com" rel="noopener noreferrer"
+          aria-label="Gmail"><svg width="30" height="30">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#emails-icon"></use>
+          </svg></a>
+        <p>tsyhaniukkateryna@gmail.com</p>
+      </li>
+    </ul>
+
+  </div>
+</section>
+    <section class="about-me" id="about-me">
+  <div class="container about-me-container">
+    <h2 class="visually-hidden" data-i18n="about.title">About me</h2>
+    <div class="about-me-info">
+      <div class="about-me-text">
+        <h3 class="about-me-title fade-in-up" data-i18n="about.title">According to my friends, I am:</h3>
+        <p class="about-me-qualities" data-i18n="about.qualities1"> A <span class="span-qualities">friendly
+            communicator</span> - I easily connect
+          with others and create a positive
+          atmosphere in
+          any team.</p>
+        <p class="about-me-qualities" data-i18n="about.qualities2"> A <span class="span-qualities">responsible
+            achiever</span> - I always keep my
+          word and follow through on every task I
+          take on.</p>
+        <p class="about-me-qualities" data-i18n="about.qualities3"><span class="span-qualities">Hardworking and
+            result-oriented</span> - I'm fully
+          committed to reaching goals and
+          delivering high-quality results.
+        </p>
+      </div>
+    </div>
+    <div class="box-about-me-img">
+      <img class="about-me-img" src="/portfolio-tsyhaniuk/assets/photo_5379652495263001916_y-min-DAtu0ac_.jpg" alt="Tsyhaniuk Kateryna foto"
+        width="591" height="1280" loading="lazy">
+
+    </div>
+  </div>
+</section>
+    <section id="education">
+  <div class="container education-container">
+    <h2 class="education-title" data-i18n="education.title">Education</h2>
+    <ul class="education-accordion-container">
+      <li class="education-accordion-item">
+        <div class="block-education">
+          <h3 class="item-education" data-i18n="education.subtitle1">My way</h3>
+          <button type="button" class="education-accordion-btn" aria-label="show resume description">
+            <svg class="icon-education" width="20" height="20">
+              <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#Icon-1@2x"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="education-accordion-panel">
+          <p class="ac-panel-item" data-i18n="education.text1">
+            My journey in IT began in 2024 when I enrolled in a Full-Stack Developer course — and I
+            quickly realized how much
+            I
+            enjoy it! Although it's a demanding field that requires constant learning and improvement, I'm excited about
+            the
+            challenges it brings. I'm currently looking for new opportunities to grow as a developer and apply my skills
+            in
+            building
+            web applications, websites, and more.
+          </p>
+        </div>
+      </li>
+      <li class="education-accordion-item">
+        <div class="block-education">
+          <h3 class="item-education" data-i18n="education.subtitle2">Education</h3>
+          <button type="button" class="education-accordion-btn" aria-label="show resume description">
+            <svg class="icon-education" width="20" height="20">
+              <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#Icon-1@2x"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="education-accordion-panel">
+          <p class="ac-panel-item" data-i18n="education.text2-1">
+            GoIT, Full-Stack Developer.<br /> 2024-2025
+          </p>
+          <p class="ac-panel-item" data-i18n="education.text2-2">
+            Ivan Franko National University of Lviv, <br /> Master in Finance and Credit.Economist. <br /> 2011-2016
+          </p>
+        </div>
+      </li>
+      <li class="education-accordion-item">
+        <div class="block-education">
+          <h3 class="item-education" data-i18n="education.subtitle3">Tech skills</h3>
+          <button type="button" class="education-accordion-btn" aria-label="show resume description">
+            <svg class="icon-education" width="20" height="20">
+              <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#Icon-1@2x"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="education-accordion-panel">
+          <p class="ac-panel-item">
+            Html<br /> CSS<br /> JS<br /> TypeScript<br /> React<br /> Node.js
+          </p>
+        </div>
+      </li>
+      <li class="education-accordion-item">
+        <div class="block-education">
+          <h3 class="item-education" data-i18n="education.subtitle4">My certificate from GoIT</h3>
+          <button type="button" class="education-accordion-btn" aria-label="show resume description">
+            <svg class="icon-education" width="20" height="20">
+              <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#Icon-1@2x"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="education-accordion-panel">
+
+          <ul class="certificates-list">
+            <li><img class="certificate-item" data-full="./img/education/edu-decst-1.png"
+                src="/portfolio-tsyhaniuk/assets/edu-decst-1-BuUHmDaJ.png" alt="certificate" width="659" height="862" loading="lazy" /></li>
+            <li><img class="certificate-item" data-full="./img/education/edu-decst-2.png"
+                src="/portfolio-tsyhaniuk/assets/edu-decst-2-DBqlXAev.png" alt="certificate" width="659" height="866" loading="lazy" /></li>
+            <li><img class="certificate-item" data-full="./img/education/edu-decst-3.png"
+                src="/portfolio-tsyhaniuk/assets/edu-decst-3-C-L2lecf.png" alt="certificate" width="660" height="861" loading="lazy" /></li>
+            <li><img class="certificate-item" data-full="./img/education/edu-decst-4.png"
+                src="/portfolio-tsyhaniuk/assets/edu-decst-4-CV_gDj_m.png" alt="certificate" width="657" height="862" loading="lazy" /></li>
+          </ul>
+
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="projects" id="projects">
+  <div class="container projects-container">
+    <h2 class="projects-title" data-i18n="projects.title">Projects</h2>
+    <div class="projects-swiper">
+      <ul class="swiper-wrapper projects-swiper-wrapper">
+        <li class="project-swiper-slide swiper-slide">
+          <div class="projects-image-wrapper">
+
+            <img class="projects-image" src="/portfolio-tsyhaniuk/assets/aqua-track-min-D78TOeCe.png" alt="Aquatrack" width="448" height="489"
+              loading="lazy" />
+
+          </div>
+          <div class="projects-info">
+            <ul class="projects-list">
+              <li class="projects-item-list">React</li>
+              <li class="projects-item-list">Node.js</li>
+              <li class="projects-item-list">JS</li>
+              <li class="projects-item-list">CSS</li>
+            </ul>
+            <h3 class="main-info">
+              Water tracker
+            </h3>
+            <p class="main-info-text" data-i18n="projects.work-team">Team project</p>
+            <p class="main-info-text" data-i18n="projects.role-water">Role: dev components Modal</p>
+            <a href="https://final-project-frontend-taupe.vercel.app/" target="_blank" rel="noopener noreferrer"
+              class="project-link" aria-label="GitHub project link">See project</a>
+          </div>
+
+        </li>
+        <li class="project-swiper-slide swiper-slide">
+          <div class="projects-image-wrapper">
+            <img class="projects-image" src="/portfolio-tsyhaniuk/assets/portfolio-lUytF4rC.png" alt="Portfolio" width="888" height="833"
+              loading="lazy" />
+          </div>
+          <div class="projects-info">
+            <ul class="projects-list">
+              <li class="projects-item-list">JS</li>
+              <li class="projects-item-list">HTML</li>
+              <li class="projects-item-list">CSS</li>
+            </ul>
+            <h3 class="main-info">
+              Portfolio
+            </h3>
+            <p class="main-info-text" data-i18n="projects.work-team">Team project</p>
+            <p class="main-info-text" data-i18n="projects.role-portfolio">Role: dev section 'About me'</p>
+            <a href="https://denysovsiienko.github.io/105-cyber-solutions-team-project-2/" target="_blank"
+              rel="noopener noreferrer" class="project-link" aria-label="GitHub project link">See project</a>
+          </div>
+
+        </li>
+        <li class="project-swiper-slide swiper-slide">
+          <div class="projects-image-wrapper">
+            <img class="projects-image" src="/portfolio-tsyhaniuk/assets/food-delivery-zoPgs_hQ.png" alt="Food delivery" width="448"
+              height="569" loading="lazy" />
+          </div>
+          <div class="projects-info">
+            <ul class="projects-list">
+              <li class="projects-item-list">JS</li>
+              <li class="projects-item-list">HTML</li>
+              <li class="projects-item-list">CSS</li>
+            </ul>
+            <h3 class="main-info">
+              Food Delivery
+
+            </h3>
+            <p class="main-info-text" data-i18n="projects.role-all">Role: dev all sections</p>
+            <a href="https://katerynatsyhaniuk.github.io/tsyhaniuk-food-delivery/" target="_blank"
+              rel="noopener noreferrer" class="project-link" aria-label="GitHub project link">See project</a>
+          </div>
+
+        </li>
+        <li class="project-swiper-slide swiper-slide">
+          <div class="projects-image-wrapper">
+            <img class="projects-image" src="/portfolio-tsyhaniuk/assets/download-mob-min-DlPigqXC.png" alt="Dazzly Stories" width="448"
+              height="569" loading="lazy" />
+          </div>
+          <div class="projects-info">
+            <ul class="projects-list">
+              <li class="projects-item-list">JS</li>
+              <li class="projects-item-list">HTML</li>
+              <li class="projects-item-list">CSS</li>
+            </ul>
+            <h3 class="main-info">
+              Dazzly Stories
+
+            </h3>
+            <p class="main-info-text" data-i18n="projects.role-all">Role: dev all sections</p>
+            <a href="https://katerynatsyhaniuk.github.io/project-stories/" target="_blank" rel="noopener noreferrer"
+              class="project-link" aria-label="GitHub project link">See project</a>
+          </div>
+
+        </li>
+      </ul>
+      <div class="projects-buttons-wrapper">
+        <button type="button" class="projects-button-prev projects-button" aria-label="Swipe to the previous slide">
+          <svg class="projects-button-icon">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#arrow-narrow-left"></use>
+          </svg>
+        </button>
+        <button type="button" class="projects-button-next projects-button" aria-label="Swipe to the next slide">
+          <svg class="projects-button-icon">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#arrow-narrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer id="work-together">
+  <div class="container footer-container">
+    <h2 class="footer-title" data-i18n="work-together.title">Ready to <span class="start">start</span> something great?
+    </h2>
+    <form class="footer-form" novalidate>
+      <div class="input-mail-box">
+        <label for="email">
+          <input autocomplete="off" type="email" name="email" id="email" placeholder="Enter your email"
+            pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" required class="footer-form-input-mail"
+            aria-label="Your email" />
+        </label>
+        <span class="valid-notification valid-notification-mail"></span>
+      </div>
+      <div class="input-comments-box">
+        <label for="comments">
+          <input type="text" name="comments" id="comments" placeholder="comments" class="footer-form-input-text"
+            autocomplete="off" aria-label="Your comment" required data-i18n="work-together.input-mail" /></label>
+        <span class="valid-notification-comment valid-notification"></span>
+      </div>
+      <button type="submit" class="form-submit-btn" aria-label="submit" data-i18n="work-together.send">
+        Send
+      </button>
+    </form>
+    <div class="loader-wrap is-hidden">
+      <div class="loader-box" data-i18n="work-together.loading">
+        <span class="letter">L</span>
+        <span class="letter">o</span>
+        <span class="letter">a</span>
+        <span class="letter">d</span>
+        <span class="letter">i</span>
+        <span class="letter">n</span>
+        <span class="letter">g</span>
+        <span class="dot">.</span>
+        <span class="dot">.</span>
+        <span class="dot">.</span>
+      </div>
+    </div>
+
+    <div class="footer-backdrop is-hidden">
+      <div class="footer-modal">
+        <button type="button" class="footer-modal-close-btn" aria-label="close">
+          <svg class="footer-modal-close-icon">
+            <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#x-close"></use>
+          </svg>
+        </button>
+        <div class="modal-content-box"></div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <div id="mobile-menu" class="mobile-menu" aria-hidden="true" role="navigation">
+  <div class="mobile-menu-container">
+    <button id="menu-close" class="mobile-menu-close" aria-label="Close menu" type="button">
+      <svg width="28" height="28">
+        <use href="/portfolio-tsyhaniuk/assets/icons-xxT45zNZ.svg#x-close"></use>
+      </svg>
+    </button>
+    <div class="mobile-menu-content">
+      <ul class="mobile-menu-list">
+        <li><a href="#about-me" class="mobile-menu-link" data-i18n="mobile-menu.about-me">About me</a></li>
+        <li><a href="#education" class="mobile-menu-link" data-i18n="mobile-menu.education">Education</a></li>
+        <li><a href="#projects" class="mobile-menu-link" data-i18n="mobile-menu.projects">Projects</a></li>
+      </ul>
+      <a href="#work-together" class="mobile-menu-btn-work" data-i18n="mobile-menu.work-together">Work together</a>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
