@@ -1,5 +1,6 @@
 'use strict';
 import axios from 'axios';
+import i18next from 'i18next';
 import { saveToLS, loadFromLS } from './storage.js';
 
 const refs = {
@@ -63,7 +64,7 @@ refs.formElem.addEventListener('submit', async event => {
 
   try {
     const response = await createRequest(userData);
-    const markup = modalTemplate(response);
+    const markup = modalTemplate();
     refs.contentBoxModalElem.insertAdjacentHTML('afterbegin', markup);
     hideLoader();
     refs.backDropElem.classList.remove('is-hidden');
@@ -109,13 +110,24 @@ async function createRequest(data) {
     console.log(err);
   }
 }
+// function modalTemplate() {
+//   return `<h2 class="footer-modal-title" data-i18n="work-together.footer-title">
+//       Thank you!
+//     </h2>
+//     <p class="footer-modal-text" data-i18n="work-together.footer-text">
+//       Your message already flew into my private messages! I'll reply soon!
+//     </p>`;
+// }
+
 function modalTemplate() {
-  return `<h2 class="footer-modal-title">
-      Thank you!
+  return `
+    <h2 class="footer-modal-title">
+      ${i18next.t('work-together.footer-title')}
     </h2>
     <p class="footer-modal-text">
-      Your message already flew into my private messages! I'll reply soon!
-    </p>`;
+      ${i18next.t('work-together.footer-text')}
+    </p>
+  `;
 }
 
 function clearNotificationField() {

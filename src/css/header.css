@@ -13,7 +13,7 @@
   .logo-img {
     width: 50px;
     height: 50px;
-    margin-right: 230px;
+    margin-right: 160px;
     border-radius: 5px 20px 5px 20px;
   }
 }
@@ -22,7 +22,7 @@
   .logo-img {
     width: 60px;
     height: 60px;
-    margin-right: 760px;
+    margin-right: 700px;
   }
 }
 
@@ -47,6 +47,8 @@
 
 @media screen and (min-width: 768px) {
   .work-together {
+    white-space: nowrap;
+
     display: flex;
     border: 2px solid #5d1478;
     background-color: #5d1478;
@@ -72,7 +74,7 @@
 
   .header-item:hover::after,
   .header-item:focus::after,
-  .active::after {
+  .header-item:active::after {
     display: block;
     content: '';
     border-radius: 5px 20px 5px 20px;
@@ -157,4 +159,29 @@
   .mobile-menu-btn {
     display: none;
   }
+}
+
+.btn-language {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #5d1478;
+  padding-top: 4px;
+}
+
+.btn-language:hover::after,
+.btn-language:focus::after,
+.btn-language:active::after {
+  display: block;
+  content: '';
+  border-radius: 5px 20px 5px 20px;
+  width: 10px;
+  height: 10px;
+  background: #5d1478;
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
 }

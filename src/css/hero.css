@@ -36,21 +36,16 @@
   color: #5d1478;
 }
 
-.title-third {
-  font-family: 'Italianno';
+/* .title-third {
   letter-spacing: 4px;
   font-size: 40px;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .title-first,
   .title-second,
   .title-third {
     font-size: 48px;
-  }
-
-  .title-third {
-    font-size: 72px;
   }
 }
 
@@ -59,9 +54,6 @@
   .title-second,
   .title-third {
     font-size: 62px;
-  }
-  .title-third {
-    font-size: 86px;
   }
 }
 

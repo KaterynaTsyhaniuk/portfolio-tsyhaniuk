@@ -144,8 +144,9 @@
 }
 
 .form-submit-btn {
+  white-space: nowrap;
   margin-right: 70px;
-  width: 60px;
+  /* width: 60px; */
   background-color: #5d1478;
   color: #fafafa;
   border: 1px solid rgba(250, 250, 250, 0.5);
@@ -157,7 +158,7 @@
 @media screen and (min-width: 768px) {
   .form-submit-btn {
     margin-right: 0;
-    width: 80px;
+    /* width: 80px; */
     background-color: #5d1478;
     color: #fafafa;
     border: 1px solid rgba(250, 250, 250, 0.5);
