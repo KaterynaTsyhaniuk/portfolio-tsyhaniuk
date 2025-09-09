@@ -1,16 +1,15 @@
 import i18next from 'i18next';
 
 async function initI18n() {
+  const en = await fetch('/locales/en.json').then(res => res.json());
+  const uk = await fetch('/locales/uk.json').then(res => res.json());
+
   await i18next.init({
     lng: localStorage.getItem('lang') || 'en',
     debug: true,
     resources: {
-      en: {
-        translation: await fetch('/locales/en.json').then(res => res.json()),
-      },
-      uk: {
-        translation: await fetch('/locales/uk.json').then(res => res.json()),
-      },
+      en: { translation: en },
+      uk: { translation: uk },
     },
   });
 
