@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "hello": "Привіт.",
+    "role": "Я <span class='white-later'>Фулстек Розробниця</span>",
+    "name": "<span class='white-later'>Ц</span>иганюк <span class='white-later'>К</span>атерина.",
+    "title": "Привіт.<br/>Я <span class='white-later'>Фулстек Розробниця</span><br/><span class='white-leter'>Ц</span>иганюк <span class='white-leter'>К</span>атерина."
+  },
+  "about": {
+    "title": "За словами моїх друзів, я:",
+    "qualities1": "<span class='span-qualities'>Дружелюбний комунікатор</span> – легко знаходжу спільну мову з іншими та створюю позитивну атмосферу в будь-якій команді.",
+    "qualities2": "<span class='span-qualities'>Відповідальний виконавець</span> – завжди дотримуюся слова і доводжу до кінця кожне завдання.",
+    "qualities3": "<span class='span-qualities'>Працьовита та орієнтована на результат</span> – повністю віддаюся досягненню цілей і забезпечую високоякісний результат."
+  },
+  "header": {
+    "about-me": "Про мене",
+    "education": "Освіта",
+    "projects": "Проєкти",
+    "work-together": "Співпраця"
+  },
+  "education": {
+    "title": "Освіта",
+    "subtitle1": "Мій шлях",
+    "text1": "Мій шлях в ІТ розпочався у 2024 році, коли я записалася на курс Full-Stack Developer — і швидко зрозуміла, наскільки мені це подобається! Хоча ця сфера є вимогливою і потребує постійного навчання та вдосконалення, мене захоплюють виклики, які вона приносить. Наразі я шукаю нові можливості для розвитку як розробниця та застосування своїх навичок у створенні вебзастосунків, сайтів та інших проєктів.",
+    "subtitle2": "Освіта",
+    "text2-1": "GoIT, Full-Stack Developer.<br /> 2024-2025",
+    "text2-2": "Львівський національний університет імені Івана Франка,<br /> Магістр з фінансів і кредиту. Економіст.<br /> 2011-2016",
+    "subtitle3": "Технічні навички",
+    "subtitle4": "Мій сертифікат від GoIT"
+  },
+
+  "projects": {
+    "title": "Проєкти",
+    "work-team": "Командні проєкти",
+    "work-my": "",
+    "role-water": "розробка компонентів модальних вікон",
+    "role-portfolio": "розробка секції 'Про мене'",
+    "role-all": "розробка всіх секцій"
+  },
+
+  "work-together": {
+    "title": "Готові <span class='start'>розпочати</span> щось велике?",
+    "send": "Надіслати",
+    "loading": "<span>З</span><span>а</span><span>в</span><span>а</span><span>н</span><span>т</span><span>а</span><span>ж</span><span>у</span><span>ю</span><span>.</span><span>.</span><span>.</span>",
+    "input-mail": "Введіть свою пошту",
+    "footer-title": "Дякую!",
+    "footer-text": "Ваше повідомлення вже летить до мене! Скоро відповім!"
+  },
+  "mobile-menu": {
+    "about-me": "Про мене",
+    "education": "Освіта",
+    "projects": "Проєкти",
+    "work-together": "Співпраця"
+  }
+}

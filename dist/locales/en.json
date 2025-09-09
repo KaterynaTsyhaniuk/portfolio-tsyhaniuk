@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "hello": "Hello.",
+    "role": "I'm <span class='white-later'>Fullstack Developer</span>",
+    "name": "<span class='white-later'>T</span>syhaniuk <span class='white-later'>K</span>ateryna."
+  },
+
+  "about": {
+    "title": "According to my friends, I am:",
+    "qualities1": "A <span class='span-qualities'>friendly communicator</span> - I easily connect with others and create a positive atmosphere in any team.",
+    "qualities2": "A <span class='span-qualities'>responsible achiever</span> - I always keep my word and follow through on every task I take on.",
+    "qualities3": "<span class='span-qualities'>Hardworking and result-oriented</span> - I'm fully committed to reaching goals and delivering high-quality results."
+  },
+
+  "header": {
+    "about-me": "About me",
+    "education": "Education",
+    "projects": "Projects",
+    "work-together": "Work together"
+  },
+
+  "education": {
+    "title": "Education",
+    "subtitle1": "My way",
+    "text1": "My journey in IT began in 2024 when I enrolled in a Full-Stack Developer course — and I quickly realized how much I enjoy it! Although it's a demanding field that requires constant learning and improvement, I'm excited about the challenges it brings. I'm currently looking for new opportunities to grow as a developer and apply my skills in building web applications, websites, and more.",
+    "subtitle2": "Education",
+    "text2-1": "GoIT, Full-Stack Developer.<br /> 2024-2025",
+    "text2-2": "Ivan Franko National University of Lviv, <br /> Master in Finance and Credit.Economist. <br /> 2011-2016",
+    "subtitle3": "Tech skills",
+    "subtitle4": "My certificate from GoIT"
+  },
+
+  "projects": {
+    "title": "Projects",
+    "work-team": "Team project",
+    "work-my": "",
+    "role-water": "dev components Modal",
+    "role-portfolio": "dev section About me",
+    "role-all": "dev all section"
+  },
+
+  "work-together": {
+    "title": "Ready to <span class='start'>start</span> something great?",
+    "send": "Send",
+    "loading": "<span>L</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>",
+    "input-mail": "Enter your email",
+    "footer-title": " Thank you!",
+    "footer-text": "Your message already flew into my private messages! I'll reply soon!"
+  },
+
+  "mobile-menu": {
+    "about-me": "About me",
+    "education": "Education",
+    "projects": "Projects",
+    "work-together": "Work together"
+  }
+}
