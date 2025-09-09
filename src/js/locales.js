@@ -6,10 +6,10 @@ async function initI18n() {
     debug: true,
     resources: {
       en: {
-        translation: await fetch('../locales/en.json').then(res => res.json()),
+        translation: await fetch('/locales/en.json').then(res => res.json()),
       },
       uk: {
-        translation: await fetch('../locales/uk.json').then(res => res.json()),
+        translation: await fetch('/locales/uk.json').then(res => res.json()),
       },
     },
   });
