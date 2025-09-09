@@ -1,8 +1,12 @@
 import i18next from 'i18next';
 
 async function initI18n() {
-  const en = await fetch('/locales/en.json').then(res => res.json());
-  const uk = await fetch('/locales/uk.json').then(res => res.json());
+  const en = await fetch(`${import.meta.env.BASE_URL}locales/en.json`).then(
+    res => res.json()
+  );
+  const uk = await fetch(`${import.meta.env.BASE_URL}locales/uk.json`).then(
+    res => res.json()
+  );
 
   await i18next.init({
     lng: localStorage.getItem('lang') || 'en',
