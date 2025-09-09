@@ -2,7 +2,7 @@
   "hero": {
     "hello": "Hello.",
     "role": "I'm <span class='white-later'>Fullstack Developer</span>",
-    "name": "<span class='white-leter'>T</span>syhaniuk <span class='white-leter'>K</span>ateryna."
+    "name": "<span class='white-later'>T</span>syhaniuk <span class='white-later'>K</span>ateryna."
   },
 
   "about": {
@@ -40,7 +40,7 @@
   },
 
   "work-together": {
-    "title": "Ready to <span>start</span> something great?",
+    "title": "Ready to <span class='start'>start</span> something great?",
     "send": "Send",
     "loading": "<span>L</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>",
     "input-mail": "Enter your email",

@@ -2,7 +2,7 @@
   "hero": {
     "hello": "Привіт.",
     "role": "Я <span class='white-later'>Фулстек Розробниця</span>",
-    "name": "<span class='white-leter'>Ц</span>иганюк <span class='white-leter'>К</span>атерина.",
+    "name": "<span class='white-later'>Ц</span>иганюк <span class='white-later'>К</span>атерина.",
     "title": "Привіт.<br/>Я <span class='white-later'>Фулстек Розробниця</span><br/><span class='white-leter'>Ц</span>иганюк <span class='white-leter'>К</span>атерина."
   },
   "about": {
@@ -38,7 +38,7 @@
   },
 
   "work-together": {
-    "title": "Готові <span>розпочати</span> щось велике?",
+    "title": "Готові <span class='start'>розпочати</span> щось велике?",
     "send": "Надіслати",
     "loading": "<span>З</span><span>а</span><span>в</span><span>а</span><span>н</span><span>т</span><span>а</span><span>ж</span><span>у</span><span>ю</span><span>.</span><span>.</span><span>.</span>",
     "input-mail": "Введіть свою пошту",
