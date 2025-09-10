@@ -43,7 +43,9 @@
     "loading": "<span>З</span><span>а</span><span>в</span><span>а</span><span>н</span><span>т</span><span>а</span><span>ж</span><span>у</span><span>ю</span><span>.</span><span>.</span><span>.</span>",
     "input-mail": "Введіть свою пошту",
     "footer-title": "Дякую!",
-    "footer-text": "Ваше повідомлення вже летить до мене! Скоро відповім!"
+    "footer-text": "Ваше повідомлення вже летить до мене! Скоро відповім!",
+    "namePlaceholder": "Введіть свою пошту",
+    "commentPlaceholder": "коментар"
   },
   "mobile-menu": {
     "about-me": "Про мене",
