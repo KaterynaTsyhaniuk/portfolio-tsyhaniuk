@@ -35,6 +35,7 @@
 @media screen and (min-width: 1400px) {
   .about-me-info {
     padding: 36px;
+    max-width: 890px;
   }
 }
 .about-me-text {
@@ -87,6 +88,7 @@
 @media screen and (min-width: 1400px) {
   .box-about-me-img {
     padding-right: 36px;
+    max-width: 350px;
   }
 }
 

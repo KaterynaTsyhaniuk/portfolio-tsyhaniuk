@@ -3,7 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(191, 123, 209, 0.542);
+  /* background-color: rgba(191, 123, 209, 0.542); */
+  background-color: rgba(198, 134, 216, 0.542);
+  background-color: rgb(226, 174, 241);
   background-image: url('../img/1216_60.png');
   background-size: 280px auto;
   background-repeat: no-repeat;

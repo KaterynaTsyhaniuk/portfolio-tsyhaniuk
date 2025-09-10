@@ -45,7 +45,9 @@
     "loading": "<span>L</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>",
     "input-mail": "Enter your email",
     "footer-title": " Thank you!",
-    "footer-text": "Your message already flew into my private messages! I'll reply soon!"
+    "footer-text": "Your message already flew into my private messages! I'll reply soon!",
+    "namePlaceholder": "Enter your email",
+    "commentPlaceholder": "comments"
   },
 
   "mobile-menu": {
