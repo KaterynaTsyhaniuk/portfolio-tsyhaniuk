@@ -47,7 +47,7 @@
     "footer-title": " Thank you!",
     "footer-text": "Your message already flew into my private messages! I'll reply soon!",
     "namePlaceholder": "Enter your email",
-    "commentPlaceholder": "comments"
+    "commentPlaceholder": "your comments"
   },
 
   "mobile-menu": {
@@ -55,5 +55,14 @@
     "education": "Education",
     "projects": "Projects",
     "work-together": "Work together"
+  },
+
+  "errors": {
+    "invalidEmail": "Invalid email, try again!",
+    "emptyComment": "Don't leave this field empty."
+  },
+
+  "success": {
+    "validEmailComment": "Success!"
   }
 }
