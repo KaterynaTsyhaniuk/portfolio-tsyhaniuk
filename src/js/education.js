@@ -4,41 +4,31 @@ import Accordion from 'accordion-js';
 import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/dist/basicLightbox.min.css';
 
-// делегуємо клік на документі — працює, навіть якщо елементи з'являються пізніше
-document.addEventListener('click', e => {
-  const img = e.target.closest('.certificate-item');
-  if (!img) return;
+import edu1 from '../img/education/edu-decst-1.png';
+import edu2 from '../img/education/edu-decst-2.png';
+import edu3 from '../img/education/edu-decst-3.png';
+import edu4 from '../img/education/edu-decst-4.png';
 
-  // беремо спочатку data-full (як ти раніше мав), якщо нема — беремо src атрибут
-  const raw = img.dataset.full || img.getAttribute('src') || '';
+const images = {
+  1: edu1,
+  2: edu2,
+  3: edu3,
+  4: edu4,
+};
 
-  // якщо це вже повний URL (http(s)...) — повертаємо як є
-  if (/^https?:\/\//i.test(raw)) {
-    openLightbox(raw);
-    return;
-  }
+document.querySelectorAll('.certificate-item').forEach(img => {
+  const id = img.dataset.id;
+  img.src = images[id];
+  img.dataset.full = images[id];
 
-  // прибираємо ведучі './' або '/'
-  const rel = raw.replace(/^\.?\//, '');
-
-  // BASE_URL під Vite: '/' локально, і '/repo-name/' в проді.
-  const base =
-    import.meta && import.meta.env && import.meta.env.BASE_URL
-      ? import.meta.env.BASE_URL
-      : '/';
-
-  // коректно з'єднуємо (щоб не було подвійних слешів)
-  const src = base.endsWith('/') ? base + rel : base + '/' + rel;
-
-  openLightbox(src);
+  img.addEventListener('click', () => {
+    const src = img.dataset.full;
+    const instance = basicLightbox.create(`
+      <img src="${src}" alt="certificate" />
+    `);
+    instance.show();
+  });
 });
-
-function openLightbox(src) {
-  const instance = basicLightbox.create(`
-    <img src="${src}" alt="certificate" style="max-width:100%; height:auto; display:block;" />
-  `);
-  instance.show();
-}
 
 const educationAccordion = new Accordion('.education-accordion-container', {
   duration: 400,
