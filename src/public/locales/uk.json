@@ -45,12 +45,20 @@
     "footer-title": "Дякую!",
     "footer-text": "Ваше повідомлення вже летить до мене! Скоро відповім!",
     "namePlaceholder": "Введіть свою пошту",
-    "commentPlaceholder": "коментар"
+    "commentPlaceholder": "ваш коментар"
   },
   "mobile-menu": {
     "about-me": "Про мене",
     "education": "Освіта",
     "projects": "Проєкти",
     "work-together": "Співпраця"
+  },
+  "errors": {
+    "invalidEmail": "Невірний email, спробуйте ще!",
+    "emptyComment": "Не залишайте це поле порожнім."
+  },
+
+  "success": {
+    "validEmailComment": "Успіх!"
   }
 }

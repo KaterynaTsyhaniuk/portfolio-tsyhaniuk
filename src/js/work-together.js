@@ -169,27 +169,29 @@ function checkInputValidity() {
 function createErrorMailNotification() {
   refs.inputMailElem.classList.add('input-error');
   refs.spanValidMailElem.classList.add('notification-error');
-  refs.spanValidMailElem.textContent = 'Invalid email,try again';
+  refs.spanValidMailElem.textContent = i18next.t('errors.invalidEmail');
 }
 
 function createErrorCommentNotification() {
   refs.inputCommentElem.classList.add('input-error');
   refs.spanValidCommentElem.classList.add('notification-error');
-  refs.spanValidCommentElem.textContent = "Don't leave this field empty.";
+  refs.spanValidCommentElem.textContent = i18next.t('errors.emptyComment');
 }
 
 function createCommentSuccessNotification() {
   refs.inputCommentElem.classList.remove('input-error');
   refs.spanValidCommentElem.classList.remove('notification-error');
   refs.inputCommentElem.classList.add('input-success');
-  refs.spanValidCommentElem.textContent = 'Success!';
+  refs.spanValidCommentElem.textContent = i18next.t(
+    'success.validEmailComment'
+  );
 }
 
 function createMailSuccessNotification() {
   refs.inputMailElem.classList.remove('input-error');
   refs.spanValidMailElem.classList.remove('notification-error');
   refs.inputMailElem.classList.add('input-success');
-  refs.spanValidMailElem.textContent = 'Success!';
+  refs.spanValidMailElem.textContent = i18next.t('success.validEmailComment');
 }
 
 function showLoader() {
