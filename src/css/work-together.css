@@ -41,6 +41,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-title {
+    text-align: center;
     margin-left: 160px;
     padding: 42px;
     font-size: 34px;
@@ -49,7 +50,7 @@
 
 @media screen and (min-width: 1400px) {
   .footer-title {
-    margin-left: 320px;
+    margin-left: 250px;
     padding: 58px;
     font-size: 52px;
   }

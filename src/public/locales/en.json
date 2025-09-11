@@ -36,7 +36,8 @@
     "work-my": "",
     "role-water": "dev components Modal",
     "role-portfolio": "dev section About me",
-    "role-all": "dev all section"
+    "role-all": "dev all section",
+    "link": "Project"
   },
 
   "work-together": {
@@ -47,7 +48,7 @@
     "footer-title": " Thank you!",
     "footer-text": "Your message already flew into my private messages! I'll reply soon!",
     "namePlaceholder": "Enter your email",
-    "commentPlaceholder": "your comments"
+    "commentPlaceholder": "Your comments"
   },
 
   "mobile-menu": {
