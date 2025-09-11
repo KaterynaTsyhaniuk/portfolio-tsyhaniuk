@@ -30,22 +30,23 @@
 
   "projects": {
     "title": "Проєкти",
-    "work-team": "Командні проєкти",
+    "work-team": "Командний проєкт",
     "work-my": "",
-    "role-water": "розробка компонентів модальних вікон",
-    "role-portfolio": "розробка секції 'Про мене'",
-    "role-all": "розробка всіх секцій"
+    "role-water": "Розробка компонентів модальних вікон",
+    "role-portfolio": "Розробка секції 'Про мене'",
+    "role-all": "Розробка всіх секцій",
+    "link": "Проєкт"
   },
 
   "work-together": {
-    "title": "Готові <span class='start'>розпочати</span> щось велике?",
+    "title": "Готові <span class='start'>розпочати</span> щось грандіозне?",
     "send": "Надіслати",
-    "loading": "<span>З</span><span>а</span><span>в</span><span>а</span><span>н</span><span>т</span><span>а</span><span>ж</span><span>у</span><span>ю</span><span>.</span><span>.</span><span>.</span>",
+    "loading": "<span>З</span><span>а</span><span>в</span><span>а</span><span>н</span><span>т</span><span>а</span><span>ж</span><span>е</span><span>н</span><span>н</span><span>я</span><span>.</span><span>.</span><span>.</span>",
     "input-mail": "Введіть свою пошту",
     "footer-title": "Дякую!",
     "footer-text": "Ваше повідомлення вже летить до мене! Скоро відповім!",
     "namePlaceholder": "Введіть свою пошту",
-    "commentPlaceholder": "ваш коментар"
+    "commentPlaceholder": "Bаш коментар"
   },
   "mobile-menu": {
     "about-me": "Про мене",
