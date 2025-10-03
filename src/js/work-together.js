@@ -102,7 +102,7 @@ function closeModal() {
 async function createRequest(data) {
   try {
     const res = await axios.post(
-      'https://server-tsyhaniuk-1.onrender.com/send-email',
+      'https://0ec90b57d6e95fcbda19832f.supabase.co/functions/v1/send-email',
       data
     );
     return res;
@@ -110,6 +110,7 @@ async function createRequest(data) {
     console.log(err);
   }
 }
+
 // function modalTemplate() {
 //   return `<h2 class="footer-modal-title" data-i18n="work-together.footer-title">
 //       Thank you!
