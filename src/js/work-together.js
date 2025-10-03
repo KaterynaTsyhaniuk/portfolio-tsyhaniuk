@@ -101,13 +101,17 @@ function closeModal() {
 
 async function createRequest(data) {
   try {
-    const res = await axios.post(
-      'https://0ec90b57d6e95fcbda19832f.supabase.co/functions/v1/send-email',
-      data
-    );
+    const res = await axios.post('https://api.web3forms.com/submit', {
+      access_key: '464ab86e-12e0-4fe0-aef5-2d53cc2e0713',
+      subject: 'New Form Submission',
+      from_name: 'Contact Form',
+      email: data.email,
+      message: `Email: ${data.email}\nComment: ${data.comment}`,
+    });
     return res;
   } catch (err) {
     console.log(err);
+    throw err;
   }
 }
 
