@@ -101,38 +101,23 @@ function closeModal() {
 
 async function createRequest(data) {
   try {
-    const res = await axios.post('https://api.web3forms.com/submit', {
-      access_key: '464ab86e-12e0-4fe0-aef5-2d53cc2e0713',
-      subject: 'New Form Submission',
-      from_name: 'Contact Form',
-      email: data.email,
-      message: `Email: ${data.email}\nComment: ${data.comment}`,
-    });
+    const res = await axios.post(
+      'https://server-tsyhaniuk-1.onrender.com/send-email',
+      data
+    );
     return res;
   } catch (err) {
     console.log(err);
-    throw err;
   }
 }
 
-// function modalTemplate() {
-//   return `<h2 class="footer-modal-title" data-i18n="work-together.footer-title">
-//       Thank you!
-//     </h2>
-//     <p class="footer-modal-text" data-i18n="work-together.footer-text">
-//       Your message already flew into my private messages! I'll reply soon!
-//     </p>`;
-// }
-
 function modalTemplate() {
-  return `
-    <h2 class="footer-modal-title">
-      ${i18next.t('work-together.footer-title')}
-    </h2>
-    <p class="footer-modal-text">
-      ${i18next.t('work-together.footer-text')}
-    </p>
-  `;
+  return ` <h2 class="footer-modal-title">       ${i18next.t(
+    'work-together.footer-title'
+  )}     </h2>     <p class="footer-modal-text">       ${i18next.t(
+    'work-together.footer-text'
+  )}     </p>;
+`;
 }
 
 function clearNotificationField() {
