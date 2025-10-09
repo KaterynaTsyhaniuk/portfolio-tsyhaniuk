@@ -102,7 +102,7 @@ function closeModal() {
 async function createRequest(data) {
   try {
     const res = await axios.post(
-      'https://server-tsyhaniuk-1.onrender.com/send-email',
+      'https://server-tsyhaniuk.onrender.com/send-email',
       data
     );
     return res;
