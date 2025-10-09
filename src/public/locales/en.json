@@ -34,10 +34,11 @@
     "title": "Projects",
     "work-team": "Team project",
     "work-my": "",
-    "role-water": "dev components Modal",
-    "role-portfolio": "dev section About me",
-    "role-all": "dev all section",
-    "link": "Project"
+    "role-water": "Dev components Modal",
+    "role-portfolio": "Dev section About me",
+    "role-all": "Dev all section",
+    "link": "Project",
+    "role-all-next": "Dev project"
   },
 
   "work-together": {
